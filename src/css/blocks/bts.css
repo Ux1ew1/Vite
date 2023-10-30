@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("Gilroy-ExtraBold.eot");
+    src:
+        local("Gilroy ExtraBold"),
+        local("Gilroy-ExtraBold"),
+        url("Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("Gilroy-ExtraBold.woff") format("woff"),
+        url("Gilroy-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("Gilroy-SemiBold.eot");
+    src:
+        local("Gilroy SemiBold"),
+        local("Gilroy-SemiBold"),
+        url("Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"),
+        url("Gilroy-SemiBold.woff") format("woff"),
+        url("Gilroy-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("Gilroy-Medium.eot");
+    src:
+        local("Gilroy Medium"),
+        local("Gilroy-Medium"),
+        url("Gilroy-Medium.eot?#iefix") format("embedded-opentype"),
+        url("Gilroy-Medium.woff") format("woff"),
+        url("Gilroy-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("Gilroy-Regular.eot");
+    src:
+        local("Gilroy Regular"),
+        local("Gilroy-Regular"),
+        url("Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+        url("Gilroy-Regular.woff") format("woff"),
+        url("Gilroy-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Gilroy", sans-serif;
+    background-color: #f9f9f9;
+}
+
+.btn {
+    border-radius: 5.952px;
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-padding-y: 0.087rem;
+}
+
+.nav-link {
+    --bs-nav-link-font-size: 17px;
+}
+
+.navbar-nav {
+    /* width: 24rem; */
+    justify-content: space-around;
+}
+
+.btn-success {
+    --bs-btn-bg: #75bf7a;
+}
+
+.navbar {
+    padding-top: 4rem;
+    padding-bottom: 2.4rem;
+    background-color: #ffffff;
+}
+
+.nav-item {
+    margin-right: 2.9rem;
+}
+
+.banner {
+    margin-top: 3.3rem;
+}
+
+.banner-text {
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 65.91px;
+    color: #000000;
+}
+
+.banner-subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 27px;
+    margin-bottom: 62px;
+    color: #9e9da2;
+}
+
+button {
+    padding: 14px 29px;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: 800;
+    background-color: #000000;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.banner-button {
+    padding: 10px 41px;
+}
+
+.banner-button img {
+    margin-right: 10px;
+}
+
+.banner-phone {
+    padding: 55px 71px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 86px;
+    margin-bottom: 128px;
+    border-radius: 10px;
+    background-color: #75bf7a;
+}
+
+.banner-phone-title {
+    width: 246px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.banner-phone-form {
+    gap: 11px;
+}
+
+input {
+    width: 499px;
+    padding-left: 35px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: #000000;
+}
+
+input::placeholder {
+    color: #dadada;
+}
+
+@media screen and (max-width: 764px) {
+    .banner-text {
+        margin-top: 31px;
+    }
+
+    .banner-title {
+        font-size: 34px;
+        line-height: 37.872px;
+    }
+
+    .banner-subtitle {
+        font-size: 18px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    button {
+        padding: 18px 41px;
+        font-size: 14px;
+        line-height: 0px;
+    }
+
+    .banner-button {
+        padding: 6px 20px;
+    }
+
+    .banner-button img {
+        width: 23px;
+        height: 23px;
+        margin-right: 6px;
+    }
+
+    .banner-phone {
+        padding: 22px 30px;
+    }
+
+    .banner-phone-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        width: 280px;
+        height: 48px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+}
