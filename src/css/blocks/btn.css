@@ -1,0 +1,28 @@
+.btn {
+    border-radius: 5.952px;
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-padding-y: 0.087rem;
+}
+
+.nav-link {
+    --bs-nav-link-font-size: 17px;
+}
+
+.navbar-nav {
+    width: 24rem;
+    justify-content: space-around;
+}
+
+.btn-success {
+    --bs-btn-bg: #75bf7a;
+}
+
+.navbar {
+    padding-top: 4rem;
+    padding-bottom: 2.4rem;
+    background-color: aquamarine;
+}
+
+.nav-item {
+    /* margin-right: 2.9rem; */
+}

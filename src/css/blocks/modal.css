@@ -7,9 +7,9 @@ dialog:modal {
     max-height: calc(100% - 10rem);
 }
 
-dialog::after {
+/* dialog::backdrop {
     background: var(--modal-overlay);
-}
+} */
 
 .modal-wrapper {
     padding: 2rem;
@@ -56,9 +56,10 @@ dialog::after {
     justify-content: flex-end;
 }
 
-.modal [data-btn="primary"] {
+.modal [data-variant="primary"] {
     flex: 1;
     max-width: 50%;
+    max-height: 100%;
 }
 
 /* навигация в модалке */
@@ -75,11 +76,6 @@ dialog::after {
 }
 
 /* навигация */
-.modal-nav__link.active {
-    border: var(--link-border-focus);
-    color: var(--link-title-hover);
-}
-
 @media screen and (max-width: 494px) {
     dialog:modal {
         max-width: 100vw;

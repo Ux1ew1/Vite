@@ -1,65 +1,71 @@
 :root {
-    /* общий фон */
-    --body-color: #ffffff;
-    /* цвет заголовков */
-    --title-color: #161616;
-    /* цвет подзаголовков */
-    --subtitle-color: #42526b;
+  /* общий фон */
+  --body-color: #ffffff;
+  /* цвет заголовков */
+  --title-color: #161616;
+  /* цвет подзаголовков */
+  --subtitle-color: #42526b;
 
-    /*  blue color */
-    --cds-blue-400: #0f62fe;
-    --cds-blue-500: #0353e9;
+  /*  blue color */
+  --cds-blue-400: #0f62fe;
+  --cds-blue-500: #0353e9;
 
-    /* grey color */
-    --cds-grey-400: #525252;
-    --cds-grey-500: #8d8d8d;
+  /* grey color */
+  --cds-grey-400: #525252;
+  --cds-grey-500: #8d8d8d;
 
-    /* Background */
-    --background-background: #ffffff;
-    --background-background-hover: #e5e5e5;
+  /* Background */
+  --background-background: #ffffff;
+  --background-background-hover: #e5e5e5;
 
-    /* Text */
-    --text-text-primary: #161616;
-    --text-text-tertiary: #ffffff;
-    --text-text-on-color: #ffffff; /* Text on interactive colors; Text on button colors */
-    --text-text-on-color-disabled: #8d8d8d; /* Disabled color for --text-text-on-color */
-    --text-text-disabled: #c6c6c6;
+  /* Text */
+  --text-text-primary: #161616;
+  --text-text-tertiary: #ffffff;
+  --text-text-on-color: #ffffff; /* Text on interactive colors; Text on button colors */
+  --text-text-on-color-disabled: #8d8d8d; /* Disabled color for --text-text-on-color */
+  --text-text-disabled: #c6c6c6;
 
-    /* Link */
-    --link-link-primary: #0f62fe;
+  /* Link */
+  --link-link-primary: #0f62fe;
 
-    /* Button */
-    --button-button-primary: #0f62fe;
-    --button-button-primary-hover: #0353e9;
-    --button-button-secondary: #393939;
-    --button-button-secondary-hover: #4c4c4c;
-    --button-button-tertiary: #0f62fe;
-    --button-button-tertiary-hover: #0353e9;
-    --button-button-danger-primary: #da1e28;
-    --button-button-danger-hover: #ba1b23;
-    --button-button-disabled: #c6c6c6;
+  /* Button */
+  --button-button-primary: #0f62fe;
+  --button-button-primary-hover: #0353e9;
+  --button-button-secondary: #393939;
+  --button-button-secondary-hover: #4c4c4c;
+  --button-button-tertiary: #0f62fe;
+  --button-button-tertiary-hover: #0353e9;
+  --button-button-danger-primary: #da1e28;
+  --button-button-danger-hover: #ba1b23;
+  --button-button-disabled: #c6c6c6;
 
-    /* Focus */
-    --focus-focus: #0f62fe;
-    --focus-box-shadow: 0px 0px 0px 0.1rem #ffffff inset;
+  /* Focus */
+  --focus-focus: #0f62fe;
+  --focus-box-shadow: 0px 0px 0px 0.1rem #ffffff inset;
+
+  /* cards background */
+  --cards-bgc: #f4f4f4;
+
+  /* cards fonts color */
+  --cards-font-color-secondary: #525252;
 }
 
 /* logo */
 .header-logo svg {
-    --logo-fill: #161616;
+  --logo-fill: #161616;
 }
 
 /* links */
 a {
-    --link-color-default: #525252;
-    --link-border-default: 2px solid #e0e0e0;
+  --link-color-default: #525252;
+  --link-border-default: 2px solid #e0e0e0;
 
-    /* состояние hover */
-    --link-title-hover: #161616;
-    --link-border-hover: #8d8d8d;
+  /* состояние hover */
+  --link-title-hover: #161616;
+  --link-border-hover: #8d8d8d;
 
-    /* состояние focus */
-    --link-border-focus: 2px solid #0f62fe;
+  /* состояние focus */
+  --link-border-focus: 2px solid #0f62fe;
 }
 
 /* forms */
@@ -69,18 +75,18 @@ input[type="password"],
 input[type="tel"],
 input[type="number"],
 textarea {
-    --input-bg-color: #ffffff;
-    --input-border-default: 1px solid #8d8d8d;
-    --input-text-color: #161616;
-    --input-placeholder-color: #a8a8a8;
+  --input-bg-color: #ffffff;
+  --input-border-default: 1px solid #8d8d8d;
+  --input-text-color: #161616;
+  --input-placeholder-color: #a8a8a8;
 }
 
 label {
-    --input-label-color: #525252;
+  --input-label-color: #525252;
 }
 
 label[data-label="disabled"] {
-    --label-color-disabled: #c6c6c6;
+  --label-color-disabled: #c6c6c6;
 }
 
 input[type="text"]:hover,
@@ -89,7 +95,7 @@ input[type="password"]:hover,
 input[type="email"]:hover,
 input[type="number"]:hover,
 textarea:hover {
-    --input-outline: 2px solid #0f62fe;
+  --input-outline: 2px solid #0f62fe;
 }
 
 input[type="text"]:focus,
@@ -98,7 +104,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus,
 textarea:focus {
-    --input-outline: 2px solid #0f62fe;
+  --input-outline: 2px solid #0f62fe;
 }
 
 input[type="text"]:disabled,
@@ -107,20 +113,20 @@ input[type="password"]:disabled,
 input[type="email"]:disabled,
 input[type="number"]:disabled,
 textarea:disabled {
-    --input-bg-color-disabled: #f4f4f4;
-    --input-color-disabled: #c6c6c6;
+  --input-bg-color-disabled: #f4f4f4;
+  --input-color-disabled: #c6c6c6;
 }
 
 /* текст с ошибкой */
 .input-error {
-    --text-color: #da1e28;
+  --text-color: #da1e28;
 }
 
 /* модалка */
 dialog {
-    --modal-bgc: #f4f4f4; /* цвет фона */
+  --modal-bgc: #f4f4f4; /* цвет фона */
 }
 
 dialog::backdrop {
-    --modal-overlay: rgba(22, 22, 22, 0.5); /* оверлей */
+  --modal-overlay: rgba(22, 22, 22, 0.5); /* оверлей */
 }
